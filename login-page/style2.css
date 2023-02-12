@@ -1,0 +1,242 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.login {
+    background-color: #11110f;
+    height: 520px;
+    width: 380px;
+    margin-left: 250px;
+    margin-top: 105px;
+    border-radius: 20px;
+    box-shadow: #aaaa96;
+    box-shadow: 10px 10px 40px -12px #c15ad65b;
+}
+
+.login > .email > input {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    background-color: black;
+    outline: #8c52ff;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    height: 60px;
+    width: 280px;
+    margin-top: -60px;
+    margin-left: 70px;
+    padding-left: 25px;
+    border-style: #8c52ff;
+}
+
+.login > .imagem {
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+} 
+
+.login > .nome > input {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    background-color: black;
+    outline: #8c52ff;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    height: 60px;
+    width: 280px;
+    margin-top: -60px;
+    margin-left: 70px;
+    padding-left: 25px;
+    border-style: #8c52ff;
+}
+
+.login > .imagem1 {
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+} 
+
+
+.login > .senha > input {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    background-color: black;
+    outline: #8c52ff;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    height: 60px;
+    width: 225px;
+    margin-top: -60px;
+    margin-left: 70px;
+    padding-left: 25px;
+    border-style: #8c52ff;
+}
+
+.login > .imagem2 {
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+} 
+
+.login > .imagem11 {
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    margin-left: 260px;
+    margin-top: -60px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border-radius: 15px;
+} 
+
+
+input[type=email]:hover,
+email:hover {
+    background: black;
+    border-bottom: 2px solid #7b46e6;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type=text]:hover,
+yext:hover {
+    background: black;
+    border-bottom: 2px solid #7b46e6;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type=password]:hover,
+password:hover {
+    background: black;
+    border-bottom: 2px solid #7b46e6;
+    font-family: 'Roboto Mono', monospace;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+  }
+
+  .link {
+    padding-top: 5px;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover,
+a:hover {
+    color: white;
+}
+
+button {
+    background-color: #8c52ff;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 10px 40px -12px #c15ad6b7;
+}
+
+button:hover,
+button:hover {
+    background: #6d3dce;
+}
+
+.link1{
+    text-decoration: none;
+    color: #8c52ff;
+}
+
+.link2{
+    text-decoration: none;
+    color: #8c52ff;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.p > p {
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    color: white;
+    font-size: 12px;
+}
+
+.image > img {
+    height: 600px;
+    width: 550px;
+    margin-top: -550px;
+    margin-left: 725px;
+}
+
+.imagem10 > img {
+    height: 600px;
+    width: 550px;
+    margin-top: -490px;
+    margin-left: 525px;
+}
+
+.voltar {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 15px;
+}
